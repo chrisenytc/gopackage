@@ -18,6 +18,12 @@ $ git clone https://github.com/chrisenytc/gopackage.git
 $ cd gopackage
 ```
 
+3º Test your gopackage
+
+```bash
+$ make test
+```
+
 After change this template to create your own package
 
 Build your package
