@@ -6,15 +6,16 @@
  * Licensed under the MIT license.
  */
 
-package lib
+package main
 
 import (
+	"github.com/chrisenytc/gopackage"
 	"testing"
 )
 
 func TestReturnMsg(t *testing.T) {
 	msg := "Testing Message func"
-	testMsg := ReturnMsg(msg)
+	testMsg := gopackage.ReturnMsg(msg)
 	if msg != testMsg {
 		t.Errorf("'%s' is different of '%s'", msg, testMsg)
 	}

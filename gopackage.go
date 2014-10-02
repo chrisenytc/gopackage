@@ -6,7 +6,7 @@
  * Licensed under the MIT license.
  */
 
-package lib
+package gopackage
 
 /*
  * Dependencies
